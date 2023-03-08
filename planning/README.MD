@@ -2,33 +2,19 @@
 ## An Adventure Race Scoring App
 
 <img width="500px" src='img/logo.png'> 
-TRACKR is a web app designed to create an interactive leaderboard for self-supported adventure races
+
+### TRACKR is a web app designed to create an interactive leaderboard for self-supported adventure races
 
 
 
-<img width="250px" height="250px" src='img/eventpage.png'> 
+<img width="600px" src='img/erd.png'> 
 
-<img width="250px" height="250px" src='img/register.png'> |
-<img width="250px" height="250px" src='img/update.png'>  |
+<img width="600px" src='img/wireframe.png'> 
+
 
 
 ---
-## The Team:
 
-| **Name:**            | **Role:**             |
-| -------------------- | --------------------- |
-|                      |                       |
-| **- Jose Melendez:** | - Github Manager      |
-|                      | - Front End Developer |
-|                      |                       |
-| **- Tim Martinson:** | - SCRUM Master        |
-|                      | - Front End Developer |
-|                      |                       |
-| **- Edward Ho:**     | - Front End Developer |
-|                      | - UI Design           |
-|                      |                       |
-| **- Pat Goral:**     | - Back End Developer  |
-|                      | - Deployment Manager  |
 
 
 ## Technologies Used
