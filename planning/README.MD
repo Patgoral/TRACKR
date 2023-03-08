@@ -24,11 +24,11 @@
 
 [View Trello Board](https://trello.com/b/Od0prVVK/race-tracker)
 
-<img width="500px" src='readme_img/trello.png'>
+<img width="500px" src='img/trello.png'>
 
 ---
 
-## Technologies Used
+## Planned Technologies
 
 ![Technologies Used](https://skillicons.dev/icons?i=react,django,python,postgresql,js,html,css)
 
