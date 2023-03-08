@@ -15,30 +15,22 @@
 <img width="600px" src='img/wireframe.png'> 
 
 
-
 ---
 
-
-
-## Technologies Used
-
-![Technologies Used](https://skillicons.dev/icons?i=react,nodejs,express,mongodb,js,html,css)
-
-| Code       |          |
-| ---------- | -------- |
-| React      | Node     |
-| JavaScript | Express  |
-| HTML5      | MongoDB  |
-| Mongoose   | CSS3     |
-
-
 ## Planning Docs:
+---
 
 ### Trello Board:
 
-[View Trello Board](https://trello.com/b/ZFkGbE5Q/project-3)
+[View Trello Board](https://trello.com/b/Od0prVVK/race-tracker)
 
 <img width="500px" src='readme_img/trello.png'>
+
+---
+
+## MVP:
+
+### Version 1:
 
 
 
