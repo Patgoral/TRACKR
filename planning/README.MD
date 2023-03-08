@@ -1,7 +1,7 @@
 # TRACKR
 ## An Adventure Race Scoring App
 
-<img width="250px" height="250px" src='img/logo.png'> 
+<img src='img/logo.png'> 
 TRACKR is a web app designed to create an interactive leaderboard for self-supported adventure races
 
 
