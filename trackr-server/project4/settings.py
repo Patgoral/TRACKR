@@ -77,6 +77,16 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'project4.wsgi.application'
 
+REST_FRAMEWORK = { 
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.BasicAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+    ],
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticated',
+    ]
+}
+
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
@@ -84,7 +94,7 @@ WSGI_APPLICATION = 'project4.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Patgoral/django-auth',
+        'NAME': 'Patgoral/trackrapp',
         'USER': 'Patgoral',
         'PASSWORD': os.getenv('DATABASE_PASSWORD'),
         'HOST': 'db.bit.io',
@@ -132,3 +142,4 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+AUTH_USER_MODEL = 'trackr.User'
