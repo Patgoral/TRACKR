@@ -1,8 +1,21 @@
 from django.contrib.auth import get_user_model
 from rest_framework import serializers
 
-
+from .models.attendee import Attendee
 from .models.user import User
+
+class AttendeeSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Attendee
+        fields = ('id', 'name', 'date', 'time')
+
+class AttendeeWriteSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Attendee
+        fields = "__all__"
+
+
+
 
 class UserSerializer(serializers.ModelSerializer):
    

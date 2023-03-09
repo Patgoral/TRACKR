@@ -53,6 +53,6 @@ class SignIn(generics.CreateAPIView):
 
 class SignOut(generics.DestroyAPIView):
     def delete(self, request): 
-        request.user.delete_token()
+        request.user.delete()
         logout(request)
         return Response(status=status.HTTP_204_NO_CONTENT)

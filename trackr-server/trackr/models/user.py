@@ -37,7 +37,9 @@ class User(AbstractBaseUser, PermissionsMixin):
         token = Token.objects.create(user=self)
         self.token = token.key
         self.save()
+        print(token.key)
         return token.key
+ 
     
     def delete_token(self):
         Token.objects.filter(user=self).delete()
